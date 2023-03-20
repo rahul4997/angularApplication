@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { APP_BASE_HREF } from '@angular/common';
+import { Component, Inject, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-animation-effects',
