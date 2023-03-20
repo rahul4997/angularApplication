@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy-prod": "ng b --configuration production && node deploy-prod.js"
+    "deploy-prod": "ng b --configuration production --base-href /angularapplication/ && node deploy-prod.js"
   },
   "private": true,
   "dependencies": {
