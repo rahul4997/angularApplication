@@ -1,0 +1,33 @@
+.move{
+    padding: 20px 50px;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    margin: 20px;
+    color: #fff;
+    transition-property: translate();
+    transition-duration: 6s;
+}
+#ease{
+    transition-timing-function: ease;
+}
+#linear{
+    transition-timing-function: linear;
+}
+#ease-in{
+    transition-timing-function: ease-in;
+}
+#ease-out{
+    transition-timing-function: ease-out;
+}
+#ease-in-out{
+    transition-timing-function: ease-in-out;
+}
+.move:hover{
+    transform: translate(900px, 0px);
+}
+
+

@@ -1,0 +1,38 @@
+.transition{
+    height:90px;
+    width: 180px;
+    color: #FFF;
+    background-color: blue;
+    font-size: 14px;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 3000ms;
+    margin: 20px;
+    border-radius: 20px;
+}
+.transition-delay{
+    height:90px;
+    width: 180px;
+    color: #FFF;
+    background-color: blue;
+    font-size: 14px;
+    border: none;
+    transition-property: background-color;
+    // transition-duration: 1000ms;
+    // transition-delay: 2s;
+    transition: background-color 2s ease-in-out 2s, border-radius 2s ease-in 2s,color 0.2s ease 2s ;
+    
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.transition-delay:hover{
+    background-color: green;
+    color: black;
+    border-radius: 50%;
+}
+.transition:hover{
+    background-color: green;
+    color: black;
+    border-radius: 50%;
+}
